@@ -1,0 +1,26 @@
+.myNav {
+  width: 100%;
+  background: linear-gradient(90deg, #ffa15b, #ff7954);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-end;
+  position: relative;
+  flex-shrink: 0;
+  .myNavBack {
+    position: absolute;
+    bottom: 20px;
+    left: 22px;
+    &.hide {
+      display: none;
+    }
+  }
+  .navTitle {
+    font-size: 32px;
+    font-family: Microsoft YaHei, Microsoft YaHei-Regular;
+    font-weight: 400;
+    text-align: left;
+    color: #f7f7f7;
+    margin-bottom: 20px;
+  }
+}
